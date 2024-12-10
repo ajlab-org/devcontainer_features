@@ -22,7 +22,7 @@ jobs:
           generate-docs: "true"
 
         env:
-          GITHUB_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ORG_DISPATCH_TOKEN }}
 
       - name: Create PR for Documentation
         id: push_image_info
