@@ -1,0 +1,25 @@
+{
+  "dependsOn": {
+    "ghcr.io/devcontainers-contrib/features/curl-apt-get": {}
+  },
+  "description": "Preinstall VSCode Extensions",
+  "id": "zzz-preinstall-extensions",
+  "name": "Preinstall Extensions",
+  "options": {
+    "extensions": {
+      "default": "",
+      "description": "Supply a list of pre-installed extensions",
+      "proposals": [
+        "github.vscode-github-actions",
+        "ms-azuretools.vscode-docker",
+        "ms-python.python",
+        "ms-vscode.powershell"
+      ],
+      "type": "string"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/robinmordasiewicz/features/mkdocs-environment"
+  ],
+  "version": "0.0.4"
+}

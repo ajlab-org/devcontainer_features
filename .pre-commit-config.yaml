@@ -1,0 +1,31 @@
+---
+fail_fast: true
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+      - id: check-json
+      - id: check-shebang-scripts-are-executable
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+      - id: check-yaml
+      - id: pretty-format-json
+        args: ["--autofix"]
+  - repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 0.28.1
+    hooks:
+      - id: check-jsonschema
+        name: "Check GitHub Workflows"
+        files: ^\.github/workflows/[^/]+$
+        types: [yaml]
+        args: ["--schemafile", "https://json.schemastore.org/github-workflow"]
+      - id: check-jsonschema
+        name: "Check devcontainer-feature.json schema"
+        files: ^src/.*/devcontainer-feature.json
+        args: ["--schemafile", "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainerFeature.schema.json"]
+  - repo: https://github.com/syntaqx/git-hooks
+    rev: v0.0.18
+    hooks:
+      - id: shfmt
+      #- id: shellcheck

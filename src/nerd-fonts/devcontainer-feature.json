@@ -1,0 +1,25 @@
+{
+  "dependsOn": {
+    "ghcr.io/devcontainers-contrib/features/curl-apt-get": {},
+    "ghcr.io/devcontainers/features/common-utils": {},
+    "ghcr.io/devcontainers/features/git": {}
+  },
+  "description": "Install nerd fonts.",
+  "documentationURL": "https://www.nerdfonts.com",
+  "id": "nerd-fonts",
+  "name": "Nerd Fonts",
+  "options": {
+    "fonts": {
+      "default": "Meslo",
+      "description": "Supply a list of nerd-fonts to install",
+      "proposals": [
+        "Meslo",
+        "MartianMono",
+        "FiraCode",
+        "JetBrainsMono"
+      ],
+      "type": "string"
+    }
+  },
+  "version": "0.0.13"
+}

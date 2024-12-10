@@ -1,0 +1,9 @@
+{
+  "dependsOn": {
+    "ghcr.io/devcontainers-contrib/features/curl-apt-get": {}
+  },
+  "description": "ls deluxe (lsd) adds fancy color output, replacing legacy ls",
+  "id": "lazygit",
+  "name": "ls Deluxe",
+  "version": "0.0.6"
+}

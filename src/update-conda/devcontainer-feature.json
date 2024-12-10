@@ -1,0 +1,9 @@
+{
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/anaconda": {}
+  },
+  "description": "Update Conda and initialize shell",
+  "id": "update-conda",
+  "name": "Update Conda",
+  "version": "0.0.9"
+}

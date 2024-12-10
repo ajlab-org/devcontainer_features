@@ -1,0 +1,29 @@
+{
+  "dependsOn": {
+    "ghcr.io/robinmordasiewicz/features/powershell": {}
+  },
+  "description": "Install powershell modules",
+  "id": "powershell-modules",
+  "name": "PowerShell Modules",
+  "onCreateCommand": {
+    "powershell-modules": "sudo -- sh -c /opt/microsoft/powershell/7/pwsh -noni -nop -command . '/usr/local/share/powershell-modules/modules.ps1'"
+  },
+  "options": {
+    "modules": {
+      "default": "",
+      "description": "Supply a list of pre-installed powershell modules",
+      "proposals": [
+        "z",
+        "Terminal-Icons",
+        "PowerShellAI"
+      ],
+      "type": "string"
+    },
+    "powershellProfileURL": {
+      "default": "",
+      "description": "Optional (publicly accessible) URL to download PowerShell profile.",
+      "type": "string"
+    }
+  },
+  "version": "0.0.76"
+}

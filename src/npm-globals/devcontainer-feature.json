@@ -1,0 +1,22 @@
+{
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/node": {}
+  },
+  "description": "Install node modules global",
+  "id": "npm-globals",
+  "name": "NPM Global Modules",
+  "options": {
+    "extensions": {
+      "default": "",
+      "description": "Supply a list of pre-installed node modules",
+      "proposals": [
+        "gatsby-cli",
+        "javascript-typescript-langserver",
+        "jsonlint",
+        "newman"
+      ],
+      "type": "string"
+    }
+  },
+  "version": "0.0.6"
+}

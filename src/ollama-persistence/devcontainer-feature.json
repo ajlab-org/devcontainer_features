@@ -1,0 +1,27 @@
+{
+  "containerEnv": {
+    "OLLAMA_HOST": "0.0.0.0"
+  },
+  "description": "Installs LLMs",
+  "documentationURL": "https://github.com/prulloac/devcontainer-features/tree/main/src/ollama",
+  "id": "ollama-persistence",
+  "mounts": [
+    {
+      "source": "${devcontainerId}-ollama",
+      "target": "/root/.ollama",
+      "type": "volume"
+    }
+  ],
+  "name": "ollama-persistence",
+  "onCreateCommand": {
+    "ollama-persistence": "/usr/local/share/ollama/oncreate.sh"
+  },
+  "options": {
+    "models": {
+      "default": "",
+      "description": "comma separated list of models to pull",
+      "type": "string"
+    }
+  },
+  "version": "0.0.4"
+}

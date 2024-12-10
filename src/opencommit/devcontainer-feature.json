@@ -1,0 +1,13 @@
+{
+  "containerEnv": {
+    "OCO_AI_PROVIDER": "ollama"
+  },
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/git": {},
+    "ghcr.io/devcontainers/features/node": {}
+  },
+  "description": "opencommit using ollama",
+  "id": "opencommit",
+  "name": "opencommit",
+  "version": "0.0.22"
+}
