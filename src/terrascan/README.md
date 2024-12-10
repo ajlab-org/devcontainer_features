@@ -7,7 +7,7 @@ Terrascan is a static code analyzer for Infrastructure as Code.
 
 ```json
 "features": {
-    "ghcr.io/ajlab-gh/devcontainer_features/terrascan:1": {}
+    "ghcr.io/ajlab-org/devcontainer_features/terrascan:1": {}
 }
 ```
 
@@ -21,4 +21,4 @@ Terrascan is a static code analyzer for Infrastructure as Code.
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-gh/devcontainer_features/blob/main/src/terrascan/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-org/devcontainer_features/blob/main/src/terrascan/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

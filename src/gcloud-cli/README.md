@@ -7,7 +7,7 @@ Installs the Google Cloud CLI, including 'gcloud' for interacting with Google Cl
 
 ```json
 "features": {
-    "ghcr.io/ajlab-gh/devcontainer_features/gcloud-cli:1": {}
+    "ghcr.io/ajlab-org/devcontainer_features/gcloud-cli:1": {}
 }
 ```
 
@@ -21,4 +21,4 @@ Installs the Google Cloud CLI, including 'gcloud' for interacting with Google Cl
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-gh/devcontainer_features/blob/main/src/gcloud-cli/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-org/devcontainer_features/blob/main/src/gcloud-cli/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

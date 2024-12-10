@@ -7,7 +7,7 @@ Install node modules global
 
 ```json
 "features": {
-    "ghcr.io/ajlab-gh/devcontainer_features/npm-globals:0": {}
+    "ghcr.io/ajlab-org/devcontainer_features/npm-globals:0": {}
 }
 ```
 
@@ -21,4 +21,4 @@ Install node modules global
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-gh/devcontainer_features/blob/main/src/npm-globals/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-org/devcontainer_features/blob/main/src/npm-globals/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
