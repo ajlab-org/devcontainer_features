@@ -7,7 +7,7 @@ ls deluxe (lsd) adds fancy color output, replacing legacy ls
 
 ```json
 "features": {
-    "ghcr.io/ajlab-gh/devcontainer_features/lazygit:0": {}
+    "ghcr.io/ajlab-org/devcontainer_features/lazygit:0": {}
 }
 ```
 
@@ -17,4 +17,4 @@ ls deluxe (lsd) adds fancy color output, replacing legacy ls
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-gh/devcontainer_features/blob/main/src/lazygit/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-org/devcontainer_features/blob/main/src/lazygit/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

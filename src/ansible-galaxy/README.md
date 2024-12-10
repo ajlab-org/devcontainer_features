@@ -7,7 +7,7 @@ Install ansible galaxy modules
 
 ```json
 "features": {
-    "ghcr.io/ajlab-gh/devcontainer_features/ansible-galaxy:0": {}
+    "ghcr.io/ajlab-org/devcontainer_features/ansible-galaxy:0": {}
 }
 ```
 
@@ -21,4 +21,4 @@ Install ansible galaxy modules
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-gh/devcontainer_features/blob/main/src/ansible-galaxy/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-org/devcontainer_features/blob/main/src/ansible-galaxy/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

@@ -7,7 +7,7 @@ opencommit using ollama
 
 ```json
 "features": {
-    "ghcr.io/ajlab-gh/devcontainer_features/opencommit:0": {}
+    "ghcr.io/ajlab-org/devcontainer_features/opencommit:0": {}
 }
 ```
 
@@ -17,4 +17,4 @@ opencommit using ollama
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-gh/devcontainer_features/blob/main/src/opencommit/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-org/devcontainer_features/blob/main/src/opencommit/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
