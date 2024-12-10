@@ -7,7 +7,7 @@ Preinstall VSCode Extensions
 
 ```json
 "features": {
-    "ghcr.io/ajlab-gh/devcontainer_features/zzz-preinstall-extensions:0": {}
+    "ghcr.io/ajlab-org/devcontainer_features/zzz-preinstall-extensions:0": {}
 }
 ```
 
@@ -21,4 +21,4 @@ Preinstall VSCode Extensions
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-gh/devcontainer_features/blob/main/src/zzz-preinstall-extensions/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-org/devcontainer_features/blob/main/src/zzz-preinstall-extensions/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

@@ -7,7 +7,7 @@ Install shell shell rc files into container.
 
 ```json
 "features": {
-    "ghcr.io/ajlab-gh/devcontainer_features/container-dotfiles:0": {}
+    "ghcr.io/ajlab-org/devcontainer_features/container-dotfiles:0": {}
 }
 ```
 
@@ -17,4 +17,4 @@ Install shell shell rc files into container.
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-gh/devcontainer_features/blob/main/src/container-dotfiles/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-org/devcontainer_features/blob/main/src/container-dotfiles/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

@@ -7,7 +7,7 @@ A prompt theme engine for any shell.
 
 ```json
 "features": {
-    "ghcr.io/ajlab-gh/devcontainer_features/oh-my-posh:0": {}
+    "ghcr.io/ajlab-org/devcontainer_features/oh-my-posh:0": {}
 }
 ```
 
@@ -17,4 +17,4 @@ A prompt theme engine for any shell.
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-gh/devcontainer_features/blob/main/src/oh-my-posh/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-org/devcontainer_features/blob/main/src/oh-my-posh/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
