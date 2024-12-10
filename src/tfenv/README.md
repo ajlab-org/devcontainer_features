@@ -7,7 +7,7 @@ Install Terraform Environment manager and install the latest version of terrafor
 
 ```json
 "features": {
-    "ghcr.io/ajlab-gh/devcontainer_features/tfenv:0": {}
+    "ghcr.io/ajlab-org/devcontainer_features/tfenv:0": {}
 }
 ```
 
@@ -17,4 +17,4 @@ Install Terraform Environment manager and install the latest version of terrafor
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-gh/devcontainer_features/blob/main/src/tfenv/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-org/devcontainer_features/blob/main/src/tfenv/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

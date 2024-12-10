@@ -7,7 +7,7 @@ Installs latest version of kubectl, Helm, and optionally minikube. Auto-detects 
 
 ```json
 "features": {
-    "ghcr.io/ajlab-gh/devcontainer_features/kubectl-helm-minikube:1": {}
+    "ghcr.io/ajlab-org/devcontainer_features/kubectl-helm-minikube:1": {}
 }
 ```
 
@@ -43,4 +43,4 @@ This Feature should work on recent versions of Debian/Ubuntu-based distributions
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-gh/devcontainer_features/blob/main/src/kubectl-helm-minikube/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/ajlab-org/devcontainer_features/blob/main/src/kubectl-helm-minikube/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
